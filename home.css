@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(38, 182, 163);
+    
+}
+
+.container{
+    display: grid;
+
+}
+/*___________________StART HEADER SECTION______________________*/
+#header{
+    height: 10rem;
+    background-color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+#logo{
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(22, 106, 145);
+}
+/************HEADER BUTTON***********/
+.nav{
+
+    height: auto;
+    font-size: 5rem;
+}
+
+#btn1{
+    font-size: 1rem;
+    
+}
+#btn2{
+    font-size: 1rem;
+}
+#btn3{
+    font-size: 1rem;
+}
+#btn4{
+    font-size: 1rem;
+}
+/********BUTTON*************/
+/*_________________END HEADER SECTION_______________________*/
+
+
+
+/*_________________START CONTENT SECTION____________________*/
+#content{
+    height: auto;
+    background-color: rgb(109, 109, 109);
+    font-family: sans-serif;
+}
+/***********BANNER**************/
+#banner{
+    height: 40rem;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#banner_dec{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+#banner_btn{
+    height: auto;
+    font-size: 2rem;
+    border-radius: 15px;
+}
+#banner_bg{
+    height: 35rem;
+    width: 50%;
+    background-color: aliceblue;
+}
+/************ORDER_NAV************/
+#order_nav{
+    height: 10rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#order_nav_free_ship{
+    height: 5rem;
+    width: 5rem;
+    background-color: tomato;
+}
+#order_nav_online_order{
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(216, 216, 63);
+}
+#order_nav_discount_item{
+    height: 5rem;
+    width: 5rem;
+    background-color: rgb(33, 175, 33);
+}
+#order_nav_most_populer{
+    height: 5rem;
+    width: 5rem;
+    background-color: paleturquoise;
+}
+/*_________________FEATYRED ITEM__________________________*/
+#featured_item{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 80rem;
+    width: 100%;
+
+}
+#featured_text{
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+    display: grid;
+
+}
+.featured_item_list{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10rem;
+}
+#item1{
+    height: 30rem;
+    width: 20rem;
+    background-color: white;
+}
+#item2{
+      height: 30rem;
+    width: 20rem;
+    background-color: white;
+}
+#item3{
+      height:30rem;
+    width: 20rem;
+    background-color: white;
+}
+#item4{
+      height: 30rem;
+    width: 20rem;
+    background-color: white;
+}
+#item5{
+      height: 30rem;
+    width: 20rem;
+    background-color: white;
+}
+#item6{
+      height: 30rem;
+    width: 20rem;
+    background-color: white;
+}
+#item7{
+      height: 30rem;
+    width: 20rem;
+    background-color: white;
+}
+#item8{
+      height: 30rem;
+    width: 20rem;
+    background-color: white;
+}
+
+/*_________________END FEATURED ITEM______________________*/
+
+/*_________________START IMG BANNER_______________________*/
+.img_banner_2{
+    display: grid;
+    height: 60rem;
+
+}
+
+#first_sec{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2rem;
+}
+#banner_img_1{
+    height: 30rem;
+    width: 50rem;
+    background-color: rgb(255, 255, 255);
+}
+#banner_img_2{
+     height: 30rem;
+    width: 50rem;
+    background-color: rgb(255, 255, 255);
+}
+
+#second_sec{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+#banner_img_3{
+     height: 25rem;
+    width: 35rem;
+    background-color: rgb(255, 255, 255);
+}
+#banner_img_4{
+     height: 25rem;
+    width: 35rem;
+    background-color: rgb(255, 255, 255);
+}
+#banner_img_5{
+     height: 25rem;
+    width: 35rem;
+    background-color: rgb(255, 255, 255);
+}
+/*_________________end IMG BANNER_______________________*/
+/*_________________START FOOTER SECTION____________________*/
+#fotter{
+    height: 10rem;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
